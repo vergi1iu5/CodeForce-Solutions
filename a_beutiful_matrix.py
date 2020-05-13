@@ -22,6 +22,7 @@ def main(inFileStr):
 	rem = one_index % 5
 	num_colum_sw = abs(mod - 2)
 	num_row_sw = abs(rem - 3)
+	close(inFile)
 	return num_colum_sw + num_row_sw
 
 def linearizeMatrix(inFileObj):
